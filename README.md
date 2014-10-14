@@ -1,4 +1,4 @@
-# ![Logo](https://raw.githubusercontent.com/clarus/icons/master/ninja-48.png) Fun Combinators
+# ![Logo](https://raw.githubusercontent.com/clarus/icons/master/ninja-48.png) Function Ninjas
 Write readable code using simple functional combinators.
 
     download url
@@ -15,7 +15,7 @@ Add the Coq unstable repository:
 
 and run:
 
-    opam install coq-fun-combinators
+    opam install coq-function-ninjas
 
 ### From the sources
 Do a classic:
@@ -27,7 +27,7 @@ Do a classic:
 ## Use
 Add:
 
-    Require Import FunCombinators.All.
+    Require Import FunctionNinjas.All.
 
 at the beginning of your source files. It will add two notations:
 * `x |> f` Like `f x`. Useful to pipe data through a list of functions.
