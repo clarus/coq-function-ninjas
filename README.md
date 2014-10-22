@@ -11,7 +11,7 @@ Write readable code using simple functional combinators.
 ### With OPAM
 Add the Coq unstable repository:
 
-    opam repo add coq-unstable https://github.com/coq/opam-coq-repo-unstable.git
+    opam repo add coq-unstable https://github.com/coq/repo-unstable.git
 
 and run:
 
