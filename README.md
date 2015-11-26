@@ -9,15 +9,15 @@ Write readable code using simple functional combinators.
 
 ## Install
 ### With OPAM
-Add the Coq unstable repository:
+Add the [Coq repository](coq.io/opam/):
 
-    opam repo add coq-unstable https://github.com/coq/repo-unstable.git
+    opam repo add coq-released https://coq.inria.fr/opam/released
 
 and run:
 
     opam install coq-function-ninjas
 
-### From the sources
+### From source
 Do a classic:
 
     ./configure.sh
